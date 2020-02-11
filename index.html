@@ -5,7 +5,6 @@ subtitle: Sample Page
 use-site-title: true
 ---
 <div class="row" style="margin-top:10px">
-    url:{{site.url | relative_url}}
     {% for head in site.data.categoryDetails.KnowledgeBase %}
     <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 article-container" style="padding-bottom: 10px;">
         <a class="Category-title" href="{{site.baseurl}}/categories?category={{head.path}}"
@@ -22,8 +21,6 @@ use-site-title: true
             <div class="articlelist" style="line-height: 28.4375px ;
             font-size: 17px;
             font-weight: 200;">
-            {{article.url | relative_url}}<br>
-            {{article.url | absolute_url}}<br>
                 <a class="link_style" href="{{article.url | relative_url}}">
                     {{article.title}}</a>
             </div>
