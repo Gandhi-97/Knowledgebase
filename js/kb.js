@@ -100,9 +100,8 @@ function autocomplete(inp, arr) {
         closeAllLists(e.target);
     });
 }
-
-if (window.location.pathname == "/categories/") {
-    window.onload = url;
+if (window.location.pathname.substring(window.location.pathname.lastIndexOf("/"),window.location.pathname.length) == "/categories") {
+    window.onload = url();
 }
 
 function url() {
