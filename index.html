@@ -22,8 +22,9 @@ use-site-title: true
             <div class="articlelist" style="line-height: 28.4375px ;
             font-size: 17px;
             font-weight: 200;">
-            {{article.url | relative_url}}
-                <a class="link_style" href="{{article.url}}">
+            {{article.url | relative_url}}<br>
+            {{article.url | absolute_url}}<br>
+                <a class="link_style" href="{{article.url | relative_url}}">
                     {{article.title}}</a>
             </div>
             {% endif %}
