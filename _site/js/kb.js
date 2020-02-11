@@ -133,7 +133,7 @@ function url() {
 }
 
 function articleList(post) {
-    return categoryView.innerHTML += `<div><div class="articlelist" style="line-height: 28.4375px ;font-size: 17px;font-weight: 200;"><a href="${site.url | relative_url + post.url | relative_url}" class="link_style">${post.title}</a><div class="hideafter3line" style="font-size: 15px">${post.description ? post.description : ''}</div></div></div>`;
+    return categoryView.innerHTML += `<div><div class="articlelist" style="line-height: 28.4375px ;font-size: 17px;font-weight: 200;"><a href="http://localhost:4006${post.url}" class="link_style">${post.title}</a><div class="hideafter3line" style="font-size: 15px">${post.description ? post.description : ''}</div></div></div>`;
 }
 
 autocomplete(document.getElementById("search"), this.getfile("http://localhost:4006/posts.json"));
