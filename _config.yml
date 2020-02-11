@@ -1,8 +1,7 @@
 title: Apps4.pro Support
 description: This is sample page.
 port: 4006
-url: https://gandhi-97.github.io
-baseurl: "/knowledgebase/"
+url: https://gandhi-97.github.io/knowledgebase/
 favIcon: "/assets/images/favicon.ico"
 navbar-col: "#f2f2f2"
 navbar-text-col: "#404040"
