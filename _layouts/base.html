@@ -1,0 +1,27 @@
+---
+common-css:
+- "/css/main.css"
+- "/css/app.css"
+common-ext-css:
+- "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+common-googlefonts:
+- "Lora:400,700,400italic,700italic"
+- "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+  {% include search.html %}
+  <div class="wrapper container">
+    {{ content }}
+  </div><br>
+  {% include chat.html %}
+  {% include footer.html %}
+  <script src="{{'/js/kb.js' | relative_url}}"></script>
+</body>
+
+</html>

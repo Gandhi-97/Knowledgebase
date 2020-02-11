@@ -1,0 +1,68 @@
+title: Apps4.pro Support
+description: This is sample page.
+port: 4006
+favIcon: "/assets/images/favicon.ico"
+url: "https://gandhi-97.github.io/Knowledgebase/"
+navbar-col: "#f2f2f2"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#343C82"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+
+author:
+  name: JiJi
+
+
+social-network-links:
+  rss: true
+  email: "contact@jijitechnologies.com"
+  facebook: jijitech
+  github: jijitech
+  twitter: jijitech
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+
+
+url-pretty: "jijitechnologies.com"
+excerpt_length: 50
+
+
+title-separator: "-"
+
+
+date_format: "%B %-d, %Y"
+
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+
+kramdown:
+  input: GFM
+
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  

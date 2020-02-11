@@ -1,0 +1,17 @@
+---
+---
+    [
+{% for post in site.posts %}
+    {
+      "title": "{{ post.title }}",
+      "tag":"{{post.tags}}",
+      "date": "{{ post.date | date: "%B %d, %Y" }}",
+      "url":"{{post.url}}",
+      "path":"{{post.path}}",
+      "content":"{{post.excerpt | markdownify | strip_html | strip | remove: "\"}}",
+      "main":"{{post.main}}",
+      "subPath":"{{post.sub}}"
+    }
+    {% unless forloop.last %},{% endunless %}
+{% endfor %}
+    ]

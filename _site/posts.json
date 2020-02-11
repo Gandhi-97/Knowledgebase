@@ -1,0 +1,147 @@
+    [
+
+    {
+      "title": "How Apps4.Pro Planner handle user authentication with Office 365?",
+      "tag":"security",
+      "date": "December 05, 2019",
+      "url":"/security-and-privacy-authentication-with-office365",
+      "path":"_posts/2019-12-05-security-and-privacy-authentication-with-office365.md",
+      "content":"When user sign-in, the app redirects the user to Microsoft Sign-in page (https://login.microsoftonline.com/common), once the user completed the sign-in process, the app gets access token and use it for further communication between the app and Microsoft Planner.",
+      "main":"Security and Privacy",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "What information does Planner Manager app update in Microsoft Planner?",
+      "tag":"security",
+      "date": "December 05, 2019",
+      "url":"/security-and-privacy-app-update-in-microsoft-planner",
+      "path":"_posts/2019-12-05-security-and-privacy-app-update-in-microsoft-planner.md",
+      "content":"Using this app, you can update following Microsoft Planner data:",
+      "main":"Security and Privacy",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "Is Apps4.Pro Planner app available for free trial?",
+      "tag":"Pricing",
+      "date": "December 05, 2019",
+      "url":"/pricing-and-licensing-available-for-free-trial",
+      "path":"_posts/2019-12-05-pricing-and-licensing-available-for-free-trial.md",
+      "content":"Yes, all Apps4.Pro Planner apps are available for 14 days free trial.  The download file is same for both Trial and Purchased version. After installation it will run in trial version and when you purchase a license it will be automatically converted to purchased version.",
+      "main":"Pricing and Licensing",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "Can I try this app for my team?",
+      "tag":"Pricing",
+      "date": "December 05, 2019",
+      "url":"/pricing-and-licensing-app-for-my-team",
+      "path":"_posts/2019-12-05-pricing-and-licensing-app-for-my-team.md",
+      "content":"Yes, you can. By default after installation, the trial will be enabled for single user. You need to contact sales@jijitechnologies.com to add additional users to your trial. Once done, you can manage their trial licenses from ‘Manage License’ link in the app.",
+      "main":"Pricing and Licensing",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "How do I update the existing planner tasks using Excel?",
+      "tag":"chrome Extension",
+      "date": "December 05, 2019",
+      "url":"/migrate-from-trello-to-microsoft-planner",
+      "path":"_posts/2019-12-05-migrate-from-trello-to-microsoft-planner.md",
+      "content":"",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":"Chrome Extension"
+    }
+    ,
+
+    {
+      "title": "How do I update the existing planner tasks using Excel?",
+      "tag":"Addin",
+      "date": "December 05, 2019",
+      "url":"/microsoft-teams-translation",
+      "path":"_posts/2019-12-05-microsoft-teams-translation.md",
+      "content":"",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "How to configure inclusion list security for the add-in?",
+      "tag":"chrome Extension",
+      "date": "December 05, 2019",
+      "url":"/filefive",
+      "path":"_posts/2019-12-05-filefive.md",
+      "content":"Table of Contents Testing",
+      "main":"Apps4.Pro Planner Outlook Desktop add-in",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "How to genertae logfile for this extension?",
+      "tag":"chrome Extension",
+      "date": "December 05, 2019",
+      "url":"/fileeight",
+      "path":"_posts/2019-12-05-fileeight.md",
+      "content":"How to add resigned employees &amp; process settlement (FFS)",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":"Chrome Extension"
+    }
+    ,
+
+    {
+      "title": "How to genertae logfile for this extension?",
+      "tag":"Desktop Addin",
+      "date": "December 05, 2019",
+      "url":"/apps4pro-planner-outlook-desktop-add-in-log-file",
+      "path":"_posts/2019-12-05-apps4pro-planner-outlook-desktop-add-in-log-file.md",
+      "content":"The log file is available in the file path :",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":"Chrome Extension"
+    }
+    ,
+
+    {
+      "title": "How to configure inclusion list security for the add-in?",
+      "tag":"Desktop Addin",
+      "date": "December 05, 2019",
+      "url":"/apps4pro-planner-outlook-desktop-add-in-configure-inclusion-list",
+      "path":"_posts/2019-12-05-apps4pro-planner-outlook-desktop-add-in-configure-inclusion-list.md",
+      "content":"Go to the below Registry location : HKEY_LOCAL_MACHINESOFTWAREMICROSOFT.NETFrameworkSecurity",
+      "main":"Apps4.Pro Planner Outlook Desktop add-in",
+      "subPath":""
+    }
+    ,
+
+    {
+      "title": "What should I do incase, I receive Another object with the same value for property mailNickname already exists error during import?",
+      "tag":"chrome Extension",
+      "date": "December 05, 2019",
+      "url":"/apps4pro-planner-manager-ce-group-name-exists-issue",
+      "path":"_posts/2019-12-05-apps4pro-planner-manager-ce-group-name-exists-issue.md",
+      "content":"The error message indicates that you already have an existing O365 group with same name (mail alias) that you trying to create now. So please try to create new group with different name or use Existing Group option and select the existing group.",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":"Chrome Extension"
+    }
+    ,
+
+    {
+      "title": "Apps4pro Planner Manager Ce Features Available In Pm Extension",
+      "tag":"chrome Extension",
+      "date": "December 05, 2019",
+      "url":"/apps4pro-planner-manager-ce-features-available-in-pm-extension",
+      "path":"_posts/2019-12-05-apps4pro-planner-manager-ce-features-available-in-pm-extension.md",
+      "content":"We have made several improvements to the app which are exclusive for chrome extension only.",
+      "main":"Apps4.Pro Planner Manager",
+      "subPath":"Desktop app"
+    }
+    
+
+    ]

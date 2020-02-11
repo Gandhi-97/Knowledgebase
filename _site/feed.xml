@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps4.pro Support</title>
+    <description>This is sample page.</description>
+    <link>http://localhost:4006/</link>
+    <atom:link href="http://localhost:4006/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How Apps4.Pro Planner handle user authentication with Office 365?</title>
+        <description>
+          
+          When user sign-in, the app redirects the user to Microsoft Sign-in page (https://login.microsoftonline.com/common), once the user completed the sign-in process, the app gets access token and use it for further communication between the app and Microsoft Planner.
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/security-and-privacy-authentication-with-office365</link>
+        <guid isPermaLink="true">http://localhost:4006/security-and-privacy-authentication-with-office365</guid>
+      </item>
+    
+      <item>
+        <title>What information does Planner Manager app update in Microsoft Planner?</title>
+        <description>
+          
+          Using this app, you can update following Microsoft Planner data:
+
+Create new plan with Office 365 Group.
+
+Add members/Remove members in existing Plan
+
+Create new buckets
+
+Tasks, Buckets, and Users from required plans.
+
+Upload files into O365 group.
+
+Post comments in O365 group conversation.
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/security-and-privacy-app-update-in-microsoft-planner</link>
+        <guid isPermaLink="true">http://localhost:4006/security-and-privacy-app-update-in-microsoft-planner</guid>
+      </item>
+    
+      <item>
+        <title>Is Apps4.Pro Planner app available for free trial?</title>
+        <description>
+          
+          Yes, all Apps4.Pro Planner apps are available for 14 days free trial.  The download file is same for both Trial and Purchased version. After installation it will run in trial version and when you purchase a license it will be automatically converted to purchased version.
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/pricing-and-licensing-available-for-free-trial</link>
+        <guid isPermaLink="true">http://localhost:4006/pricing-and-licensing-available-for-free-trial</guid>
+      </item>
+    
+      <item>
+        <title>Can I try this app for my team?</title>
+        <description>
+          
+          Yes, you can. By default after installation, the trial will be enabled for single user. You need to contact sales@jijitechnologies.com to add additional users to your trial. Once done, you can manage their trial licenses from ‘Manage License’ link in the app.
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/pricing-and-licensing-app-for-my-team</link>
+        <guid isPermaLink="true">http://localhost:4006/pricing-and-licensing-app-for-my-team</guid>
+      </item>
+    
+      <item>
+        <title>How do I update the existing planner tasks using Excel?</title>
+        <description>
+          
+          Apps4.Pro Planner Migrator (Chrome Extension) helps users who want to move from Trello to Microsoft Planner easily. All you need to do is to export JSON file for the board from Trello and import to Planner. Within minutes all Boards and cards in Trello are imported to Planner as Plans...
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/migrate-from-trello-to-microsoft-planner</link>
+        <guid isPermaLink="true">http://localhost:4006/migrate-from-trello-to-microsoft-planner</guid>
+      </item>
+    
+      <item>
+        <title>How do I update the existing planner tasks using Excel?</title>
+        <description>
+          
+          Microsoft announced translation feature in Microsoft Teams. This will break the language barrier between the team members. By default, the translation feature is not enabled in Microsoft, your administrator need to enable it. This blog post shows how to enable this feature and translation in action. Translation feature is present...
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/microsoft-teams-translation</link>
+        <guid isPermaLink="true">http://localhost:4006/microsoft-teams-translation</guid>
+      </item>
+    
+      <item>
+        <title>How to configure inclusion list security for the add-in?</title>
+        <description>
+          
+          Table of Contents Testing
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/filefive</link>
+        <guid isPermaLink="true">http://localhost:4006/filefive</guid>
+      </item>
+    
+      <item>
+        <title>How to genertae logfile for this extension?</title>
+        <description>
+          
+          How to add resigned employees &amp;amp; process settlement (FFS) This feature is used to update resigned employee and to do processing of Full and Final settlement for resigned employee. Go to Employees menu » click on Manage Exits Click on Add Employee button to create/mark an existing/active employee as resigned. Search...
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/fileeight</link>
+        <guid isPermaLink="true">http://localhost:4006/fileeight</guid>
+      </item>
+    
+      <item>
+        <title>How to genertae logfile for this extension?</title>
+        <description>
+          
+          The log file is available in the file path :
+
+C:\Users&amp;lt;UserName&amp;gt;\AppData\Local\Temp\Outlook Logging\planner.log
+
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/apps4pro-planner-outlook-desktop-add-in-log-file</link>
+        <guid isPermaLink="true">http://localhost:4006/apps4pro-planner-outlook-desktop-add-in-log-file</guid>
+      </item>
+    
+      <item>
+        <title>How to configure inclusion list security for the add-in?</title>
+        <description>
+          
+          Go to the below Registry location : \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT.NETFramework\Security Create the keys \TrustManager\PromptingLevel Add the following subkeys as String Value, with the associated values. String Value subkey Value Internet AuthenticodeRequired UntrustedSites Disabled MyComputer Enabled LocalIntranet Enabled TrustedSites Enabled Go to the below Registry location : HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\MICROSOFT.NETFramework Repeat the steps 2 &amp;amp; 3....
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/apps4pro-planner-outlook-desktop-add-in-configure-inclusion-list</link>
+        <guid isPermaLink="true">http://localhost:4006/apps4pro-planner-outlook-desktop-add-in-configure-inclusion-list</guid>
+      </item>
+    
+      <item>
+        <title>What should I do incase, I receive Another object with the same value for property mailNickname already exists error during import?</title>
+        <description>
+          
+          The error message indicates that you already have an existing O365 group with same name (mail alias) that you trying to create now. So please try to create new group with different name or use Existing Group option and select the existing group.
+
+
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/apps4pro-planner-manager-ce-group-name-exists-issue</link>
+        <guid isPermaLink="true">http://localhost:4006/apps4pro-planner-manager-ce-group-name-exists-issue</guid>
+      </item>
+    
+      <item>
+        <title>Apps4pro Planner Manager Ce Features Available In Pm Extension</title>
+        <description>
+          
+          We have made several improvements to the app which are exclusive for chrome extension only. Export : a. Option to export Task Assignments, Checklists, Attachments and Comments in separate tab inside the Excel file. This will provide user more clarity to edit and add values in those tabs and re-use the excel...
+        </description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4006/apps4pro-planner-manager-ce-features-available-in-pm-extension</link>
+        <guid isPermaLink="true">http://localhost:4006/apps4pro-planner-manager-ce-features-available-in-pm-extension</guid>
+      </item>
+    
+  </channel>
+</rss>

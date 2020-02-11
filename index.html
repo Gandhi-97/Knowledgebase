@@ -1,0 +1,36 @@
+---
+layout: page
+title: Apps4.Pro Support
+subtitle: Sample Page
+use-site-title: true
+---
+<div class="row" style="margin-top:10px">
+        {% for head1 in site.data.post.knownledge %}
+        1{{head1.title}}
+        {% endfor %} 
+    {% for head in site.data.categoryDetails.KnowledgeBase %}
+    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 article-container" style="padding-bottom: 10px;">
+        <a class="Category-title" href="{{site.url}}/categories?category={{head.path}}"
+            onclick="url()">{{head.path}}</a>
+        <div>
+            {% assign count=0 %}
+            {% for article in site.posts %}
+            {% if count >= 3 %}
+            <a class="showMore" href="{{site.url}}/categories?category={{head.path}}">Show More...</a>
+            {% break %}
+            {% else %}
+            {% if article.main == head.path %}
+            {% assign count= count | plus: 1 %}
+            <div class="articlelist" style="line-height: 28.4375px ;
+            font-size: 17px;
+            font-weight: 200;">
+                <a class="link_style" href="{{article.url}}">
+                    {{article.title}}</a>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
