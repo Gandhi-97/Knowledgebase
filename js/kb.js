@@ -109,9 +109,9 @@ function url() {
     var url_format = new URL(url_string);
     var category = url_format.searchParams.get("category");
     categoryView = document.getElementById("categoryView");
-    getCategory = this.getfile("{{site.url}}/categoryDetails.json");
+    getCategory = this.getfile("{{site.url | relative_url}}/categoryDetails.json");
     fullCategory = getCategory['KnowledgeBase'];
-    getPost = this.getfile("{{site.url}}/posts.json");
+    getPost = this.getfile("{{site.url | relative_url}}/posts.json");
     categoryView.innerHTML = `<h5 class="category">${category}</h5>`;
     for (var i = 0; i < fullCategory.length; i++) {
         if (fullCategory[i].path == category) {
@@ -136,7 +136,7 @@ function url() {
 }
 
 function articleList(post) {
-    return categoryView.innerHTML += `<div><div class="articlelist" style="line-height: 28.4375px ;font-size: 17px;font-weight: 200;"><a href="${post.url}" class="link_style">${post.title}</a><div class="hideafter3line" style="font-size: 15px">${post.description ? post.description : ''}</div></div></div>`;
+    return categoryView.innerHTML += `<div><div class="articlelist" style="line-height: 28.4375px ;font-size: 17px;font-weight: 200;"><a href="${post.url | relative_url}" class="link_style">${post.title}</a><div class="hideafter3line" style="font-size: 15px">${post.description ? post.description : ''}</div></div></div>`;
 }
 
-autocomplete(document.getElementById("search"), this.getfile("{{site.url}}/posts.json"));
+autocomplete(document.getElementById("search"), this.getfile("{{site.url | relative_url}}/posts.json"));
