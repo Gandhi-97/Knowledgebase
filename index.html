@@ -9,13 +9,13 @@ use-site-title: true
     base:{{site.baseurl | relative_url}}
     {% for head in site.data.categoryDetails.KnowledgeBase %}
     <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 article-container" style="padding-bottom: 10px;">
-        <a class="Category-title" href="{{site.url}}/categories?category={{head.path}}"
+        <a class="Category-title" href="{{site.baseurl}}/categories?category={{head.path}}"
             onclick="url()">{{head.path}}</a>
         <div>
             {% assign count=0 %}
             {% for article in site.posts %}
             {% if count >= 3 %}
-            <a class="showMore" href="{{site.url}}/categories?category={{head.path}}">Show More...</a>
+            <a class="showMore" href="{{site.baseurl}}/categories?category={{head.path}}">Show More...</a>
             {% break %}
             {% else %}
             {% if article.main == head.path %}
