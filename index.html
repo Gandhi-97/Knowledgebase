@@ -5,9 +5,7 @@ subtitle: Sample Page
 use-site-title: true
 ---
 <div class="row" style="margin-top:10px">
-        {% for head1 in site.data.post.knownledge %}
-        1{{head1.title}}
-        {% endfor %} 
+url:{{site.url | relative_url}}
     {% for head in site.data.categoryDetails.KnowledgeBase %}
     <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 article-container" style="padding-bottom: 10px;">
         <a class="Category-title" href="{{site.url}}/categories?category={{head.path}}"
