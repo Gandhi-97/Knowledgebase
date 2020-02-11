@@ -2,8 +2,6 @@ title: Apps4.pro Support
 description: This is sample page.
 port: 4006
 favIcon: "/assets/images/favicon.ico"
-url: "https://gandhi-97.github.io/"
-baseurl: ""
 navbar-col: "#f2f2f2"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
